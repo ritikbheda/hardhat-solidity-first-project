@@ -10,3 +10,4 @@ describe("Token contract", function() {
         expect(await hardhatToken.totalSupply()).to.equal(ownerBalance);
     })
 })
+
